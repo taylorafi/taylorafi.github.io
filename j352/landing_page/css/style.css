@@ -1,0 +1,46 @@
+h1 {
+    font-family: cursive;
+    font-size: 5em;
+    color: rgb(69, 46, 87);
+}
+
+.info {
+    padding-top: 1em;
+}
+
+h2 {
+    padding-top: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(69, 46, 87);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2em;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(69, 46, 87);
+    padding-left: 7px;
+}
+
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width:45px) {
+    .blurb {
+        margin: 0;
+    }
+
+    .img {
+        margin: 4em;
+        padding: 1em;
+    }
+
+    .nav {
+        text-align: center;
+    }
+
+}
