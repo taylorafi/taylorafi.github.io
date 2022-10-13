@@ -32,5 +32,9 @@ img {
     margin-right: auto;
 }
 p{
-    text-align: center;
+    text-align: left;
+    font-family: pt serif;
+    font-size: 15px;
+    margin-left: 25px;
+    margin-right: 20px;
 }
