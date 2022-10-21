@@ -1,0 +1,79 @@
+body {
+    font-family: 'PT serif', serif;
+    font-size: 15px;
+}
+
+
+h1 {
+    font-family: 'PT serif', serif;
+    color: #a0adba;
+    padding: 1.3em 0;
+    background-color: #851734;
+    font-weight: 200;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+nav {
+    font-family: 'PT Serif Caption', serif;
+    color: #fff;
+}
+
+a:link,
+a:visited {
+    color: #851734;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+main {
+    margin: 1em 0;
+}
+
+h2 {
+    text-decoration: underline;
+    width: auto;
+    padding: 0.5em 0;
+    margin: 20px;
+    background-color: #d5d9dd;
+    color: #851734;
+}
+
+.home img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.resume-link {
+    font-family: 'PT serif', serif;
+
+}
+
+.resume {
+    display: block;
+    text-align: center;
+}
+
+.resume img {
+    margin: 2em 0;
+}
+
+.portfolio {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.galleries img {
+    padding: 10px;
+    margin: 1em 0;
+}
