@@ -1,0 +1,121 @@
+.topnav {
+    text-align: center;
+    background-color: #F4F5F8;
+    overflow: hidden;
+    font-family: 'Poppins';
+    font-weight: 1000;
+}
+
+footer {
+    font-family: 'Work Sans';
+    font-weight: lighter;
+    color: #000;
+    margin: 20px 100px 100px;
+    opacity: 0.45;
+    font-size: smaller;
+}
+
+header{
+    font-family: 'Work Sans';
+    text-align: center;
+}
+
+header h1,
+h2 {
+    
+    display: block;
+    margin: 50px 0;
+    line-height: 20%;
+}
+header h2{
+    font-size: smaller;
+}
+header h1{
+    font-size: larger;
+}
+
+.sub1 .sub2{
+    font-family: 'Work Sans';
+}
+
+
+#body img {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+header a {
+    color: #1DB954;
+}
+
+a:link {
+    color: #1DB954;
+    text-decoration: none;
+}
+
+body {
+    background-color: #F4F5F8;
+    color: #152128;
+    font-family: 'Literata';
+}
+
+.container-fluid p {
+    font-family: 'Literata';
+    font-size: 15px;
+    margin: 10px 100px;
+    line-height: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Work Sans';
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Work Sans';
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Work Sans';
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: small;
+    text-align: center;
+    font-family: 'Work Sans';
+    text-transform: uppercase;
+}
+
+blockquote {
+    background-color: #EAEAEA;
+}
+
+header h2 {
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Work Sans';
+}
+
+.charts {
+    background-color: #EAEAEA;
+}
+
+
+.chart-script {
+    text-align: center;
+    margin-right: 10em;
+    background-color: #EAEAEA;
+    font-family: 'Work Sans';
+}
+
+/* @media (min-width:320px){
+    .col {width: 4%;}
+} */
