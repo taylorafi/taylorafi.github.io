@@ -4,49 +4,52 @@
     overflow: hidden;
     font-family: 'Poppins';
     font-weight: 1000;
+   
 }
 
 footer {
     font-family: 'Work Sans';
     font-weight: lighter;
     color: #000;
-    margin: 20px 100px 100px;
+    /* margin: 20px 100px 100px; */
     opacity: 0.45;
     font-size: smaller;
 }
 
-header{
+header {
     font-family: 'Work Sans';
     text-align: center;
+    padding: 0 0 25px 0;
+    background-color: #F4F5F8;
+    max-width: 1280px;
+}
+
+.col{
+    /* max-width: 640px; */
+    margin: auto;
 }
 
 header h1,
 h2 {
-    
     display: block;
-    margin: 50px 0;
-    line-height: 20%;
-}
-header h2{
-    font-size: smaller;
-}
-header h1{
-    font-size: larger;
 }
 
-.sub1 .sub2{
+header h2 {
+    font-size: 1em;
+    text-align: center;
     font-family: 'Work Sans';
 }
 
-
-#body img {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
+header h2 {
+    font-size: smaller;
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Work Sans';
 }
 
-header a {
-    color: #1DB954;
+header h1 {
+    font-size: larger;
+    font-weight: bolder;
 }
 
 a:link {
@@ -60,7 +63,8 @@ body {
     font-family: 'Literata';
 }
 
-.container-fluid p {
+body p{
+    padding: 5px 0 5px 0;
     font-family: 'Literata';
     font-size: 15px;
     margin: 10px 100px;
@@ -73,21 +77,14 @@ h3 {
     text-transform: uppercase;
 }
 
-h1 {
+body h1 h2 {
     font-size: 1.5em;
     text-align: center;
     font-family: 'Work Sans';
     text-transform: uppercase;
 }
 
-h2 {
-    font-size: 1.5em;
-    text-align: center;
-    font-family: 'Work Sans';
-    text-transform: uppercase;
-}
-
-h4 {
+body h4 {
     font-size: small;
     text-align: center;
     font-family: 'Work Sans';
@@ -96,18 +93,18 @@ h4 {
 
 blockquote {
     background-color: #EAEAEA;
-}
-
-header h2 {
-    font-size: 1em;
-    text-align: center;
-    font-family: 'Work Sans';
+    padding: 50px 0 50px 0;
+    max-width: 1280px;
 }
 
 .charts {
     background-color: #EAEAEA;
+    margin: auto;
 }
-
+.charts-90s {
+    background-color: #EAEAEA;
+    margin: auto;
+}
 
 .chart-script {
     text-align: center;
@@ -116,6 +113,64 @@ header h2 {
     font-family: 'Work Sans';
 }
 
-/* @media (min-width:320px){
-    .col {width: 4%;}
-} */
+@media (max-width: 414px) {
+    footer {
+        margin: 10px 75px 75px;
+    }
+
+    .chart-script {
+        text-align: center;
+        width: 414px;
+        height: auto;
+    }
+    blockquote {
+        background-color: #EAEAEA;
+        padding: 50px 0 50px 0;
+        max-width: 414px;
+    }
+    header h1,
+    h2 p {
+        display: block;
+        text-align: center;
+        line-height: 20%;
+        margin: 0 30px 0 30px;
+    }
+   .col{
+        line-height: 50%;
+    }
+
+    .charts {
+        width: 414px;
+        height: auto;
+    }
+
+    .img-fluid {
+        width: 414px;
+        height: auto;
+    }
+    .col {
+        width: 414px;
+    }
+    body p{
+        margin:5px 20px
+    }
+}
+
+@media (max-width: 768px) {
+    .chart-script {
+        text-align: center;
+        width: 768px;
+        height: auto;
+    }
+
+    blockquote {
+        background-color: #EAEAEA;
+        padding: 50px 0 50px 0;
+        width: 768px;
+    }
+
+    .charts {
+        width: 768px;
+        height: auto;
+    }
+}
