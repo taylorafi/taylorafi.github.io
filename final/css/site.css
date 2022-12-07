@@ -29,21 +29,29 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    padding: 15px 0 15px 0 ;
+    padding: 15px 0 2px 0 ;
 }
 
-#caption {
+/* #caption {
     border: 3px solid green;
     caption-side: bottom;
     text-align: center;
     margin: 2em;
     
-}
+} */
 
 p {
     font-family: 'Fira Sans', sans-serif;
     color: #000;
     margin: 3em;
+}
+
+figcaption{
+    font-family: 'Fira Sans', sans-serif;
+    color: #000;
+    text-align: center;
+    font-size: 10px;
+    
 }
 
 nav {
@@ -58,15 +66,30 @@ a:visited {
 
 main {
     background-color: #eee;
+    margin: 0 0 3em 0;
 }
 
 body {
     background-color: #eee;
+    
 }
 
-.infogram-embed {
+/* .infogram-embed {
     width: 400px;
     align-items: center;
     display: block;
+    padding: 10px 0 20px 0;
 
+} */
+
+ul{
+    margin: 3em;
+    font-family: 'Fira Sans', sans-serif;
+    color: #000;
+}
+
+figure{
+    margin: 0 auto;
+    display: block;
+    max-width: 550px;
 }
