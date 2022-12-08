@@ -29,16 +29,9 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    padding: 15px 0 2px 0 ;
+    padding: 15px 0 2px 0;
 }
 
-/* #caption {
-    border: 3px solid green;
-    caption-side: bottom;
-    text-align: center;
-    margin: 2em;
-    
-} */
 
 p {
     font-family: 'Fira Sans', sans-serif;
@@ -46,12 +39,12 @@ p {
     margin: 3em;
 }
 
-figcaption{
+figcaption {
     font-family: 'Fira Sans', sans-serif;
     color: #000;
     text-align: center;
     font-size: 10px;
-    
+
 }
 
 nav {
@@ -71,65 +64,59 @@ main {
 
 body {
     background-color: #eee;
-    
+
 }
 
-/* .infogram-embed {
-    width: 400px;
-    align-items: center;
-    display: block;
-    padding: 10px 0 20px 0;
 
-} */
-
-ul{
+ul {
     margin: 3em;
     font-family: 'Fira Sans', sans-serif;
     color: #000;
 }
 
-.embed{
+.embed {
     margin: 0 auto;
     display: block;
     max-width: 550px;
 }
 
-footer{
+footer {
     background-color: #000;
     font-family: 'Expletus Sans', cursive;
     text-align: center;
     color: #69DFD2;
-    
+
 }
 
-iframe{
+iframe {
     margin: 0 auto;
     display: block;
     max-width: 550px;
     padding: 15px 0 15px 0;
 }
 
-.column{
+.column {
     float: left;
     width: 50%;
     text-align: center;
     background-color: #eee;
     padding: 0 0 20px 20px;
 }
-.column p{
+
+.column p {
     text-align: justify;
-    line-height: 10pxpx;
 }
-.column ul{
+
+.column ul {
     font-size: 14px;
     text-align: left;
 }
 
-.column a{
+.column a {
     align-items: center;
     padding: 5px 0;
 }
 
-html{
+html {
     background-color: #eee;
 }
